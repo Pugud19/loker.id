@@ -1,8 +1,10 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
+            <a class="flex items-end space-x-4 whitespace-nowrap bg-blur-lg rounded-lg" href="{{ route('dashboard')}}">
+                <span class=" text-5xl font-bold leading-none text-blue-600">
+                    Loker.id
+                </span>
             </a>
         </x-slot>
 
