@@ -19,26 +19,26 @@
                             @error('current_password')
                             <div class="text-pink-500 mt-2 text-sm">{{ $message }}</div>
                         @enderror
-                    </div> 
+                    </div>
                     <div class="mb-3">
                         <x-label for="password">New Password</x-label>
                         <x-input class="mt-1 w-full" type="password" name="password" id="password"/>
                             @error('password')
                             <div class="text-pink-500 mt-2 text-sm">{{ $message }}</div>
                         @enderror
-                    </div> 
+                    </div>
                     <div class="mb-3">
-                        <x-label for="pasword_confirmation">Confirm Password</x-label>
-                        <x-input class="mt-1 w-full" type="password" name="pasword_confirmation" id="pasword_confirmation"/>
-                            @error('pasword_confirmation')
+                        <x-label for="password_confirmation">Confirm Password</x-label>
+                        <x-input class="mt-1 w-full" type="password" name="password_confirmation" id="password_confirmation"/>
+                            @error('password_confirmation')
                             <div class="text-pink-500 mt-2 text-sm">{{ $message }}</div>
                         @enderror
-                    </div> 
+                    </div>
                     <x-button>Update</x-button>
-            
+
             </form>
             </x-card>
         </div>
-        
+
     </x-container>
 </x-applayout>

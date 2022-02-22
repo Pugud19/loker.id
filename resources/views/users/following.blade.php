@@ -19,9 +19,9 @@
         <div class="grid grid-cols-3 gap-3">
         <x-following :users="$follows"/>
         </div>
-        
 
-        
-        </x-container> 
+
+
+        </x-container>
 
         </x-applayout>

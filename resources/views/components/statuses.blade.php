@@ -7,7 +7,7 @@
             </div>
             <div>
             <div class="font-semibold">
-            {{ $status->user->name }} 
+            {{ $status->user->name }}
             </div>
              <div class="leading-relaxed">
              {{ $status->body }}
@@ -17,5 +17,5 @@
              </div>
              </div>
              </div>
-             </x-card>    
+             </x-card>
             @endforeach

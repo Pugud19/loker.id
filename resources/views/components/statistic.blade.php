@@ -1,6 +1,6 @@
        <div class="border-b mb-6">
         <x-container>
-        <div class="flex justify-between items-center">  
+        <div class="flex justify-between items-center">
         <div class="flex">
         <a href="{{ route('profile', $user->username) }}" class="p-10 py-4  text-center border-l border-r">
         <div class="text-xl font-semibold mb-1">{{ $user->statuses->count()}}</div>
@@ -11,7 +11,7 @@
         <div class="text-xl font-semibold mb-1">{{ $user->follows->count()}}</div>
         <div class="uppercase text-xs text-gray-600">following</div>
         </a>
-        
+
         <a href="{{ route('following.index', [$user->username, 'follower'])}}" class="p-10 py-4  text-center border-r">
         <div class="text-xl font-semibold mb-1">{{ $user->followers->count()}}</div>
         <div class="uppercase text-xs text-gray-600">follower</div>
@@ -29,9 +29,10 @@
         @endif
         </x-button>
         </form>
-        @else 
-        <a href="{{ route('profile.edit')}}" class="inline-flex items-center px-4 py-2 bg-blue-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-blue-700 active:bg-blue-900 focus:outline-none focus:border-blue-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150">
-        edit profile</a>
+        @else
+        <a href="{{ route('profile.edit') }}" class="inline-flex items-center px-4 py-2 bg-blue-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-blue-700 active:bg-blue-900 focus:outline-none focus:border-blue-900 focus:ring ring-gray-300 disabled:opacity-25 transition ease-in-out duration-150">
+        edit profie
+         </a>
         @endif
         </div>
         </div>

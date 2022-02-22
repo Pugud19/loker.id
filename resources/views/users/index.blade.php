@@ -9,4 +9,4 @@
         </div>
 </div>
 
-</x-applayout> 
+</x-applayout>
